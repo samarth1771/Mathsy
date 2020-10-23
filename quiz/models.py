@@ -12,7 +12,7 @@ class Quiz(models.Model):
     name = models.CharField(max_length=1000)
     value = models.CharField(max_length=10, blank=True, null=True)
     questions_count = models.IntegerField(default=0)
-    description = models.CharField(max_length=70)
+    image = models.FileField(upload_to='quizimage/', blank=True, null=True)
     created = models.DateTimeField(auto_now_add=True, null=True, blank=True)
 
     def __str__(self):
@@ -57,6 +57,7 @@ class QuizTaker(models.Model):
 class TakenQuiz(models.Model):
     name = models.CharField(max_length=60)
     question_count = models.IntegerField(default=30, blank=True, null=True)
+    difficulty = models.CharField(max_length=20, blank=True, null=True)
     correct = models.IntegerField(default=0, blank=True, null=True)
     completed = models.BooleanField(default=False)
     quiztaker = models.ForeignKey(QuizTaker, on_delete=models.CASCADE, related_name='takenquiz', blank=True, null=True)

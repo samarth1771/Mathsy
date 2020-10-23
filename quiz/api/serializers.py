@@ -53,6 +53,7 @@ class QuizTakerEditSerializer(serializers.ModelSerializer):
                 takenquiz = takenquizzes.pop(0)
                 takenquiz.name = takenquiz_data.get('name', takenquiz.name)
                 takenquiz.question_count = takenquiz_data.get('question_count', takenquiz.question_count)
+                takenquiz.difficulty = takenquiz_data.get('difficulty', takenquiz.difficulty)
                 takenquiz.correct = takenquiz_data.get('correct', takenquiz.correct)
                 takenquiz.completed = takenquiz_data.get('completed', takenquiz.completed)
                 takenquiz.save()
