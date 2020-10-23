@@ -1,0 +1,45 @@
+<svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_ii)">
+<path d="M0 10C0 4.47715 4.47715 0 10 0H75V75H10C4.47715 75 0 70.5229 0 65V10Z" fill="#FC9B08"/>
+</g>
+<rect x="32" y="17" width="12" height="42" rx="6" fill="#242424"/>
+<rect x="17" y="44" width="12" height="42" rx="6" transform="rotate(-90 17 44)" fill="#242424"/>
+<rect x="67.8572" y="3" width="2.28571" height="8" rx="1.14286" fill="#242424" fill-opacity="0.2"/>
+<rect x="65" y="8.14282" width="2.28571" height="8" rx="1.14286" transform="rotate(-90 65 8.14282)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(-1 0 0 1 8.14282 51)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 11 56.1428)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(-1 0 0 1 14.1428 20)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 17 25.1428)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(-1 0 0 1 56.1428 59)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 59 64.1428)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(-1 0 0 1 32.1428 1)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 35 6.14282)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(-1 0 0 1 43.1428 65)" fill="#242424" fill-opacity="0.2"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 46 70.1428)" fill="#242424" fill-opacity="0.2"/>
+<rect x="61.8572" y="15" width="2.28571" height="8" rx="1.14286" fill="#242424" fill-opacity="0.1"/>
+<rect x="59" y="20.1428" width="2.28571" height="8" rx="1.14286" transform="rotate(-90 59 20.1428)" fill="#242424" fill-opacity="0.1"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(-1 0 0 1 14.1428 63)" fill="#242424" fill-opacity="0.1"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 17 68.1428)" fill="#242424" fill-opacity="0.1"/>
+<rect x="6.85718" y="5" width="2.28571" height="8" rx="1.14286" fill="#242424" fill-opacity="0.1"/>
+<rect x="4" y="10.1428" width="2.28571" height="8" rx="1.14286" transform="rotate(-90 4 10.1428)" fill="#242424" fill-opacity="0.1"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(-1 0 0 1 69.1428 53)" fill="#242424" fill-opacity="0.1"/>
+<rect width="2.28571" height="8" rx="1.14286" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 72 58.1428)" fill="#242424" fill-opacity="0.1"/>
+<defs>
+<filter id="filter0_ii" x="0" y="-8" width="75" height="87" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.508197 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-8"/>
+<feGaussianBlur stdDeviation="8"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow" result="effect2_innerShadow"/>
+</filter>
+</defs>
+</svg>
